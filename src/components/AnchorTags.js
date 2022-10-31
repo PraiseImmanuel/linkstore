@@ -8,9 +8,10 @@ const renderAnchorTag = (href, id, linkText, linkSubText) => {
             className="anchor-tag"
             target="_blank"
             rel="noreferrer"
+            title={linkSubText}
         >
             {linkText}
-            <span>{linkSubText}</span>
+            {/* <span>{linkSubText}</span> */}
         </a>
     );
 };
