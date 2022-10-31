@@ -5,6 +5,11 @@
     justify-content: center;
 }
 
+.share-button {
+    align-self: flex-end;
+    margin-bottom: -1.3125rem;
+}
+
 .avatar {
     position: relative;
 }
@@ -54,6 +59,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .share-button {
+        margin: 0 30% -1.5rem 0;
+    }
+
     #twitter {
         font-size: 1.3rem;
     }
