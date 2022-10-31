@@ -1,0 +1,43 @@
+.anchor-tags {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.anchor-tag {
+    background-color: #eaecf0;
+    border-radius: 0.5rem;
+    display: block;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all ease 600ms;
+    width: 100%;
+}
+
+.anchor-tag:hover {
+    background-color: #d0d5dd;
+}
+
+.anchor-tag:focus {
+    background-color: #eaecf0;
+    border: 1px solid #98a2b3;
+}
+
+span {
+    color: #3f485d;
+    display: block;
+    font-size: 0.7rem;
+    padding-top: 0.15rem;
+}
+
+@media screen and (min-width: 768px) {
+    .anchor-tag {
+        font-size: 1.2rem;
+    }
+
+    span {
+        font-size: 0.875rem;
+    }
+}
