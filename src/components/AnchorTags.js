@@ -49,7 +49,7 @@ const AnchorTags = () => {
                 "https://books.zuri.team/design-rules",
                 "book__design",
                 "HNG Design Rules Book",
-                "Get book for free, while the offer lasts"
+                "Get book for free, while the offer lasts."
             )}
         </div>
     );

@@ -1,0 +1,36 @@
+.footer-wrapper {
+    border-top: 2px solid #eaecf0;
+    margin: 2rem 0;
+    padding-top: 2rem;
+}
+
+.zuri-logo > img {
+    width: 9rem;
+}
+
+.i4g-logo > img {
+    width: 6.25rem;
+}
+
+.hng9 {
+    margin: 0.8rem 0;
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width: 935px) {
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .zuri-logo > img,
+    .i4g-logo > img {
+        width: 100%;
+    }
+
+    .hng9 {
+        color: #3f485d;
+        margin: 0 1rem;
+        font-size: 1.2rem;
+    }
+}

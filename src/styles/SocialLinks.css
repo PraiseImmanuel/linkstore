@@ -1,0 +1,16 @@
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0 2rem;
+    padding: 1.5rem 0;
+}
+
+.social-link:first-child {
+    margin-right: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+    .social-links {
+        margin-bottom: 3rem;
+    }
+}
