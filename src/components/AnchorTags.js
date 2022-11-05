@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "../styles/AnchorTags.css";
 
 const renderAnchorTag = (href, id, linkText, linkSubText) => {
