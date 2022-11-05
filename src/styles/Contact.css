@@ -92,9 +92,9 @@ textarea {
 
 [type="checkbox"]:checked + label::after {
     content: url(../../public/images/tick.png);
-    left: 1.5px;
+    left: 2.25px;
     position: absolute;
-    top: -3.5px;
+    top: -3px;
     transition: all 200ms ease-in-out;
 }
 
