@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/AnchorTags.css";
 
 const renderAnchorTag = (href, id, linkText, linkSubText) => {
@@ -52,6 +53,8 @@ const AnchorTags = () => {
                 "HNG Design Rules Book",
                 "Get book for free, while the offer lasts."
             )}
+
+            {renderAnchorTag("/contact", "contact", "Contact Me")}
         </div>
     );
 };
